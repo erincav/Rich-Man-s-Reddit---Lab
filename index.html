@@ -3,14 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Rich Man's Reddit</title>
+    <link rel="stylesheet" type="text/css" href="css\style.css">
   </head>
-  <body>
+
+  <body ng-app="comicApp" ng-controller="getController">
     <nav>
       <a href="#!/home">Home</a> |
-      <a href="#!/output">Output</a>
+      <a href="#!/reddit">Reddit Posts</a>
     </nav>
 
-
+  <ng-view>/<ng-view>
 
 
 
@@ -18,12 +20,13 @@
     <script src="lib/angular.min.js"></script>
     <script src="lib/angular-route.min.js"></script>
     <!-- module js -->
-    <script src="js/module.js"></script>
+    <script src="js/module/module.js"></script>
+    <script src="js/module/config.js"></script>
+    <!-- directives js -->
     <script src="js/directives.js"></script>
     <!-- controllers js -->
-    <script src="js/controllers/getcontroller.js"></script>
-    <script src="controllers/returncontroller.js"></script>
+    <script src="js/controllers/getController.js"></script>
     <!-- services js -->
-    <script src="js/services/service.js"></script>
+    <script src="js/services/comic-service.js"></script>
   </body>
 </html>

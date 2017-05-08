@@ -1,0 +1,39 @@
+nav{
+  padding:5px;
+  text-align:center;
+  color:black;
+  font-size:16px;
+
+}
+.view{
+  background-size:auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-style:solid;
+  border-color: black;
+  border-width: 3px;
+  text-align: center;
+  overflow:hidden;
+  margin:auto;
+  height:650px;
+  width:650px;
+  padding:10px;
+}
+.reddit_view{ background-image: url(images/batman.jpg);}
+.home_view{background-image: url(images/bubble.jpg);}
+
+
+h2{ padding:1px; text-align:center;}
+h3{ padding:1px; text-align:center;}
+
+.output_text{
+  background-color:white;
+  margin: 10px;
+  width: 30%;
+  padding: 5px 15px;
+  border-style:solid;
+  border-color: black;
+  border-width: 3px;
+  float: right;
+  text-align: left;
+}
